@@ -2,13 +2,13 @@ from setuptools import find_packages, setup
 
 requirements = [
     "numpy>=1.16",
-    "fdm",
+    "fdm>=0.5.0",
     "algebra>=1",
-    "plum-dispatch>=1.5.3",
+    "plum-dispatch>=2",
     "backends>=1.4.11",
     "backends-matrix>=1.2.11",
     "mlkernels>=0.3.6",
-    "wbml>=0.3.3",
+    "wbml>=0.4.0",
 ]
 
 setup(
